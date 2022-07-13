@@ -10,13 +10,13 @@ FMT_RESET=$(printf '\033[0m')
 ZSH_CONFIGURATION_FILE="~/.zshrc"
 FOLDER_PLUGINS=$ZSH_CUSTOM/plugins
 
-$FMT_GREEN ":: Cloning plugin developer-tool"
-git clone https://github.com/sercheo87/developer-tool.git --depth=1 $FOLDER_PLUGINS/developer-tool
+echo $FMT_GREEN ":: Cloning plugin developer-tool"
+git clone https://github.com/sercheo87/developer-tool.git --depth=1 $FOLDER_PLUGINS
 
-$FMT_GREEN ":: Add developer-tool in $ZSH_CONFIGURATION_FILE"
+echo $FMT_GREEN ":: Add developer-tool in $ZSH_CONFIGURATION_FILE"
 sed -i 's/plugins=(/plugins=(developer-tool /g' $ZSH_CONFIGURATION_FILE
 
-$FMT_BLUE ":: Refresh configuration"
+echo $FMT_BLUE ":: Refresh configuration"
 source $ZSH_CONFIGURATION_FILE
 
-$FMT_RESET ":: Done"
+echo $FMT_RESET ":: Done"
