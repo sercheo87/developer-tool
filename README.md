@@ -2,7 +2,7 @@
 
 ## Introduction
 
-This [oh my zsh](https://github.com/ohmyzsh/ohmyzsh) pligin has utility and alias for evironment developer.
+This [oh my zsh](https://github.com/ohmyzsh/ohmyzsh) plugin has utility and alias for evironment developer.
 
 ## Requirements
 
