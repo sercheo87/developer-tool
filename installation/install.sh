@@ -13,9 +13,12 @@ fi
 
 ZSH_CONFIGURATION_FILE=~/.zshrc
 FOLDER_PLUGINS="${ZSH_CUSTOM}/plugins"
+FOLDER_PLUGIN=$FOLDER_PLUGINS/developer-tool
+
+[ -d $FOLDER_PLUGIN ] && { rm -rf $FOLDER_PLUGIN; }
 
 echo $FMT_GREEN ":: Cloning plugin developer-tool" $FMT_RESET
-git clone https://github.com/sercheo87/developer-tool.git --depth=1 $FOLDER_PLUGINS/developer-tool
+git clone https://github.com/sercheo87/developer-tool.git --depth=1 $FOLDER_PLUGIN
 
 echo $FMT_GREEN ":: Add developer-tool in $ZSH_CONFIGURATION_FILE" $FMT_RESET
 sed -i 's/plugins=(/plugins=(developer-tool /g' $ZSH_CONFIGURATION_FILE
