@@ -1,4 +1,4 @@
-# developer - Plugin
+# developer-tool - Plugin
 
 ## Introduction
 
