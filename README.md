@@ -2,13 +2,7 @@
 
 ## Introduction
 
-This ZSH pligin has utility and alias for evironment developer.
-
-## Installation
-
-|Method               |Description                                                                                                                       |
-|:--------------------|:---------------------------------------------------------------------------------------------------------------------------------|
-|`curl`               |`zsh -c "$(curl -fsSL https://raw.githubusercontent.com/sercheo87/developer-tool/main/installation/install.sh)"`                                 |
+This [oh my zsh](https://github.com/ohmyzsh/ohmyzsh) pligin has utility and alias for evironment developer.
 
 ## Requirements
 
@@ -20,7 +14,15 @@ Commands are required for this plugin:
 * grep
 * curl
 
-## Use
+## Installation 👾
+
+### Installation Automatically
+
+|Method               |Description                                                                                                                                      |
+|:--------------------|:------------------------------------------------------------------------------------------------------------------------------------------------|
+|`curl`               |`zsh -c "$(curl -fsSL https://raw.githubusercontent.com/sercheo87/developer-tool/main/installation/install.sh)"`                                 |
+
+### Installation Manual
 
 For use open:
 
@@ -33,12 +35,12 @@ And add:
 ```bash
 plugins=(
   ...
-  developer
+  developer-tool
   ...
 )
 ```
 
-## Tools
+## Tools 🛠
 
 ### Functions
 
@@ -53,8 +55,7 @@ plugins=(
 |:-------------|:----------------------------------------------------------------------------------------|
 |`fzfp`        |Command ***fzf*** and ***bat*** with preview by default.                                 |
 
-## Maintainer
+## Maintainer 🐱‍💻
 
-### [sercheo87](https://github.com/sercheo87)
-
-[https://github.com/sercheo87/developer-tool](https://github.com/sercheo87/developer-tool)
+* Contributor: [sercheo87](https://github.com/sercheo87)
+* Repository: [https://github.com/sercheo87/developer-tool](https://github.com/sercheo87/developer-tool)
