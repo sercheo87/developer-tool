@@ -8,7 +8,7 @@ This ZSH pligin has utility and alias for evironment developer.
 
 |Method               |Description                                                                                                                       |
 |:--------------------|:---------------------------------------------------------------------------------------------------------------------------------|
-|`curl`               |`sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/installation/install.sh)"`                                 |
+|`curl`               |`sh -c "$(curl -fsSL https://github.com/sercheo87/developer-tool/master/installation/install.sh)"`                                 |
 
 ## Use
 
