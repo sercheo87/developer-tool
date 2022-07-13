@@ -28,7 +28,16 @@ plugins=(
 )
 ```
 
-## Aliases
+## Tools
+
+### Functions
+
+|Comand        |Description                                                                                                                     |Example                                 |
+|:-------------|:-------------------------------------------------------------------------------------------------------------------------------|:---------------------------------------|
+|`devtool`     |Update plugin.                                                                                                                  |                                        |
+|`gltc`        |Get line number from ***file*** and copy to clipboard. Usage `gltc [Line_Number] [File_Path]`                                   |`gtlc 1 README.md`                      |
+
+### Aliases
 
 |Comand        |Description                                                                              |
 |:-------------|:----------------------------------------------------------------------------------------|

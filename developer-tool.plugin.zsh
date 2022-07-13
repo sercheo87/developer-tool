@@ -24,5 +24,12 @@ function devtool() {
     cd $CURRENT_DIR
 }
 
+function gltc() {
+    # Utility https://www.npmjs.com/package/clipboard-cli
+    # clipcopy is plugin zsh
+    # clippaste to pase
+    head -n$1 $2 | tail +$1 | clipcopy
+}
+
 #Alias
 alias fzfp="fzf --preview 'bat --style=numbers --color=always --line-range :500 {}'"
