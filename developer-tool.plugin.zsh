@@ -10,7 +10,7 @@ FMT_RESET=$(printf '\033[0m')
 #Functions
 function devtool() {
     CURRENT_DIR=$(pwd)
-    FOLDER_PLUGINS="zsh -c 'echo ${ZSH_CUSTOM}/plugins'"
+    FOLDER_PLUGINS=$(zsh -c 'echo ${ZSH_CUSTOM}/plugins')
     FOLDER_PLUGIN=$FOLDER_PLUGINS/developer-tool
 
     cd $FOLDER_PLUGIN
