@@ -24,7 +24,11 @@ echo $FMT_GREEN ":: Cloning plugin developer-tool" $FMT_RESET
 git clone https://github.com/sercheo87/developer-tool.git --depth=1 $FOLDER_PLUGIN
 
 echo $FMT_GREEN ":: Add developer-tool in $ZSH_CONFIGURATION_FILE" $FMT_RESET
-sed -i 's/plugins=(/plugins=(developer-tool /g' $ZSH_CONFIGURATION_FILE
+if grep "developer-tool" $ZSH_CONFIGURATION_FILE; then
+    echo $FMT_YELLOW ":: developer-tool already in $ZSH_CONFIGURATION_FILE" $FMT_RESET
+else
+    sed -i 's/plugins=(/plugins=(developer-tool /g' $ZSH_CONFIGURATION_FILE
+fi
 
 echo $FMT_BLUE ":: Refresh configuration" $FMT_RESET
 source $ZSH_CONFIGURATION_FILE

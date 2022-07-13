@@ -15,7 +15,9 @@ function devtool() {
 
     cd $FOLDER_PLUGIN
     echo $FMT_BLUE ":: Updating plugin developer-tool" $FMT_RESET
-    git pull origin master
+    git fetch --depth=1 origin
+    git pull
+
     source $ZSH_CONFIGURATION_FILE
 
     echo $FMT_GREEN ":: Updated plugin developer-tool" $FMT_RESET
