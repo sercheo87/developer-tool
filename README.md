@@ -10,6 +10,16 @@ This ZSH pligin has utility and alias for evironment developer.
 |:--------------------|:---------------------------------------------------------------------------------------------------------------------------------|
 |`curl`               |`zsh -c "$(curl -fsSL https://raw.githubusercontent.com/sercheo87/developer-tool/main/installation/install.sh)"`                                 |
 
+## Requirements
+
+Commands are required for this plugin:
+
+* [clip](https://github.com/ohmyzsh/ohmyzsh/blob/master/lib/clipboard.zsh)
+* [fzf](https://github.com/junegunn/fzf)
+* [bat](https://github.com/sharkdp/bat)
+* grep
+* curl
+
 ## Use
 
 For use open:
