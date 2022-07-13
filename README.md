@@ -2,7 +2,7 @@
 
 ## Introduction
 
-This [oh my zsh](https://github.com/ohmyzsh/ohmyzsh) plugin has utility and alias for evironment developer.
+This [oh my zsh](https://github.com/ohmyzsh/ohmyzsh) plugin has utility and alias for environment developer.
 
 ## Requirements
 
@@ -44,14 +44,14 @@ plugins=(
 
 ### Functions
 
-|Comand        |Description                                                                                                                     |Example                                 |
+|Command        |Description                                                                                                                     |Example                                 |
 |:-------------|:-------------------------------------------------------------------------------------------------------------------------------|:---------------------------------------|
 |`devtool`     |Update plugin.                                                                                                                  |                                        |
-|`gltc`        |Get line number from ***file*** and copy to clipboard. Usage `gltc [Line_Number] [File_Path]`                                   |`gtlc 1 README.md`                      |
+|`gltc`        |Get line number from ***file*** and copy to clipboard. Usage `gltc [Line_Number] [File_Path]`                                   |`gltc 1 README.md`                      |
 
 ### Aliases
 
-|Comand        |Description                                                                              |
+|Command        |Description                                                                              |
 |:-------------|:----------------------------------------------------------------------------------------|
 |`fzfp`        |Command ***fzf*** and ***bat*** with preview by default.                                 |
 
